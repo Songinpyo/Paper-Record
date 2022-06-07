@@ -15,3 +15,8 @@
 
 # Paper I'll read ✏️
 
+### ○ Human Pose Estimation
+|제목|기한|
+|------|---|
+|Rethinking the Heatmap Regression for Bottom-up Human Pose Estimation [CVPR2021]|22.06.25|
+|Deep Dual Consecutive Network for Human Pose Estimation [CVPR2021]|22.06.25|

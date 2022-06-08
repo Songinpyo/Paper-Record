@@ -9,6 +9,8 @@
 
 💡 Key insights → 해당 논문의 핵심 아이디어
 
+🔗 Reference URL → 논문 링크
+
 # Paper I read 🎓
 
 ### ○ Human Pose Estimation

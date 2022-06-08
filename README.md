@@ -4,6 +4,10 @@
 
 읽은 논문에 대한 자세한 내용은 [Issues](https://github.com/Songinpyo/Paper-Record/issues)에 별도로 정리합니다.
 
+### 각 Issue 는 다음과 같이 정리되어 있습니다.
+❓ Why → 해당 논문의 필요성, abstract
+💡 Key insights → 해당 논문의 핵심 아이디어
+
 # Paper I read 🎓
 
 ### ○ Human Pose Estimation

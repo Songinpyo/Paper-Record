@@ -27,3 +27,4 @@
 |제목|기한|
 |------|---|
 |Deep Dual Consecutive Network for Human Pose Estimation [CVPR2021]|22.06.25|
+|Solving ImageNet: a Unified Scheme for Training any Backbone to Top Results [Alibaba]|22.06.25|

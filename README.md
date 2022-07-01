@@ -33,3 +33,4 @@
 |------|---|
 |Solving ImageNet: a Unified Scheme for Training any Backbone to Top Results [Alibaba]|22.06.25|
 |DeiT: Training Data-Efficient Image Transformer & Distillation through Attention|22.06.30|
+|Deep Residual Learning for Image Recognition|2022.07.03|

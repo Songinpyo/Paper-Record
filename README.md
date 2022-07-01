@@ -22,6 +22,11 @@
 |[Rethinking the Heatmap Regression for Bottom-up Human Pose Estimation](https://github.com/Songinpyo/Paper-Record/issues/1) [CVPR2021]|Bottom-up method에서 Human scale variance와 labeling ambiguities를 고려하지 않는 fixed Standard deviations를 쓰는 것은 문제가 있다. 이를 위해 Scale-adaptive heatmap regression과 Weight-adaptive heatmap regression을 제안한다.|
 |[Deep Dual Consecutive Network for Human Pose Estimation](https://github.com/Songinpyo/Paper-Record/issues/3) [CVPR2021]|연속적인 이미지 즉, Video에서 Human Pose Estimation은 motion blur, video defocus, occlusions 등 다양한 어려움을 겪는다. 해당 논문은 Key Point detection을 위해 과거와 미래의 비디오 프레임의 temporal cues를 활용하는 multi-frame HPE를 제안한다.|
 
+### ○ Vision
+|제목|핵심 내용|
+|------|---|
+|[Deep Residual Learning for Image Recognition](https://github.com/Songinpyo/Paper-Record/issues/2)|Residual learning을 통해 deeper network를 쉽게 최적화 시키고, deeper layer가 유발하는 문제를 해결한다. Residual block, Bottleneck block|
+
 # Paper I'll read ✏️
 
 ### ○ Human Pose Estimation
@@ -33,4 +38,4 @@
 |------|---|
 |Solving ImageNet: a Unified Scheme for Training any Backbone to Top Results [Alibaba]|22.06.25|
 |DeiT: Training Data-Efficient Image Transformer & Distillation through Attention|22.06.30|
-|Deep Residual Learning for Image Recognition|2022.07.03|
+||2022.07.03|

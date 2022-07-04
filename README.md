@@ -31,13 +31,13 @@
 ### ○ Transformer
 |제목|핵심 내용|
 |------|---|
-|------|---|
+|[AN IMAGE IS WORTH 16X16 WORDS:TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE](https://github.com/Songinpyo/Paper-Record/issues/5) [ICLR2021]|CNN을 전혀 사용하지 않고 Transformer만을 이용한 Image classifier를 만든다. 이미지를 패치로 나누고 linear projection으로 패치의 차원을 변환하여 패치 임베딩을 구축한다. 패치 임베딩과 위치 임베딩을 Transformer Encoder에 넣어 feature representation을 추출하고 이를 MLP head에 넣어 최종적으로 class를 분류한다.|
 
 # Paper I'll read ✏️
 
 ### ○ Human Pose Estimation
 |제목|기한|
-|[AN IMAGE IS WORTH 16X16 WORDS:TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE](https://github.com/Songinpyo/Paper-Record/issues/5) [ICLR2021]|CNN을 전혀 사용하지 않고 Transformer만을 이용한 Image classifier를 만든다. 이미지를 패치로 나누고 linear projection으로 패치의 차원을 변환하여 패치 임베딩을 구축한다. 패치 임베딩과 위치 임베딩을 Transformer Encoder에 넣어 feature representation을 추출하고 이를 MLP head에 넣어 최종적으로 class를 분류한다.|
+|------|---|
 
 ### ○ Vision
 |제목|기한|

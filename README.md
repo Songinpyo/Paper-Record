@@ -28,11 +28,16 @@
 |[Deep Residual Learning for Image Recognition](https://github.com/Songinpyo/Paper-Record/issues/4) [IEEE2016]|Residual learning을 통해 deeper network를 쉽게 최적화 시키고, deeper layer가 유발하는 문제를 해결한다. Residual block, Bottleneck block|
 |[Feature Pyramid Networks for Object Detection](https://github.com/Songinpyo/Paper-Record/issues/5) [CVPR2017]|Deep Convolution Network에 Feature pyraimd 구조를 사용한다. Low resolution High feature를 up-conv하여 하위 layer의 feature들과 더하는 방법으로 feature를 추출해낸다.|
 
+### ○ Transformer
+|제목|핵심 내용|
+|------|---|
+|------|---|
+
 # Paper I'll read ✏️
 
 ### ○ Human Pose Estimation
 |제목|기한|
-|------|---|
+|[AN IMAGE IS WORTH 16X16 WORDS:TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE](https://github.com/Songinpyo/Paper-Record/issues/5) [ICLR2021]|CNN을 전혀 사용하지 않고 Transformer만을 이용한 Image classifier를 만든다. 이미지를 패치로 나누고 linear projection으로 패치의 차원을 변환하여 패치 임베딩을 구축한다. 패치 임베딩과 위치 임베딩을 Transformer Encoder에 넣어 feature representation을 추출하고 이를 MLP head에 넣어 최종적으로 class를 분류한다.|
 
 ### ○ Vision
 |제목|기한|

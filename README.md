@@ -28,6 +28,11 @@
 |[Deep Residual Learning for Image Recognition](https://github.com/Songinpyo/Paper-Record/issues/4) [IEEE2016]|Residual learning을 통해 deeper network를 쉽게 최적화 시키고, deeper layer가 유발하는 문제를 해결한다. Residual block, Bottleneck block|
 |[Feature Pyramid Networks for Object Detection](https://github.com/Songinpyo/Paper-Record/issues/5) [CVPR2017]|Deep Convolution Network에 Feature pyraimd 구조를 사용한다. Low resolution High feature를 up-conv하여 하위 layer의 feature들과 더하는 방법으로 feature를 추출해낸다.|
 
+### ○ Object Detection
+|제목|핵심 내용|
+|------|---|
+|[Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks](https://github.com/Songinpyo/Paper-Record/issues/7) [NIPS2015]|Object Detection 과정에서 Region Proposal을 보다 효율적으로 진행하는 RPN을 제안한다. Feature map을 Region Proposal과 Object Detection이 공유하기 때문에 보다 효율적으로 작동한다.|
+
 ### ○ Transformer
 |제목|핵심 내용|
 |------|---|

@@ -31,7 +31,7 @@
 ### ○ Temporal
 |제목|핵심 내용|
 |------|---|
-|[Deep Residual Learning for Image Recognition](https://github.com/Songinpyo/Paper-Record/issues/4) [IEEE2016]|Residual learning을 통해 deeper network를 쉽게 최적화 시키고, deeper layer가 유발하는 문제를 해결한다. Residual block, Bottleneck block|
+|[TF-Blender: Temporal Feature Blender for Video Object Detection](https://github.com/Songinpyo/Paper-Record/issues/9) [ICCV2021]|Multi frame 사용시 모든 프레임이 상호간 영향을 주고 받음으로써 feature dgrading 문제를 해결하였다. 현재 프레임과 주변 프레임간의 관계를 이용한 adaptive weight, 현재 프레임을 제외한 주변 프레임간의 관계를 이용한 featrue adjustment의 사용으로 어느 모델에나 적용가능한 irrelevent한 feature를 생성한다.|
 
 ### ○ Object Detection
 |제목|핵심 내용|

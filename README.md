@@ -22,11 +22,12 @@
 |[Rethinking the Heatmap Regression for Bottom-up Human Pose Estimation](https://github.com/Songinpyo/Paper-Record/issues/1) [CVPR2021]|Bottom-up method에서 Human scale variance와 labeling ambiguities를 고려하지 않는 fixed Standard deviations를 쓰는 것은 문제가 있다. 이를 위해 Scale-adaptive heatmap regression과 Weight-adaptive heatmap regression을 제안한다.|
 |[Deep Dual Consecutive Network for Human Pose Estimation](https://github.com/Songinpyo/Paper-Record/issues/3) [CVPR2021]|연속적인 이미지 즉, Video에서 Human Pose Estimation은 motion blur, video defocus, occlusions 등 다양한 어려움을 겪는다. 해당 논문은 Key Point detection을 위해 과거와 미래의 비디오 프레임의 temporal cues를 활용하는 multi-frame HPE를 제안한다.|
 
-### ○ 3D Human Pose Estimation
+### ○ 3D Human Mesh Reconstruction
 |제목|핵심 내용|
 |------|---|
 |[Keep it SMPL: Automatic Estimation of 3D Human Pose and Shape from a Single Image](https://github.com/Songinpyo/Paper-Record/issues/10) [ECCV2016]|2D monocular image로부터 3D mesh를 추정하는 방법을 제안한 논문, 현재까지도 smpl parameter를 추정하는 방법 사용하는 논문들에 꾸준히 사용되고 있다.|
 |[The Power of Points for Modeling Humans in Clothing](https://github.com/Songinpyo/Paper-Record/issues/11) [ICCV2021]|기존의 mesh기반, implicit surface 기반 3D reconstruction에서 pose base cloth deformation같은 Detail한 부분을 잘 나타내지 못한 것을 point cloud 기반 방법으로 realistically 구현하였다.|
+|[3D Clothed Human Reconstruction in the Wild](https://github.com/Songinpyo/Paper-Record/issues/12) [ECCV2022]|기존의 data로 사용되던 데이터는 제약조건하에 촬영된 3D rendered images를 사용하였기 때문에 in-the-wild images를 데이터로 사용하는 것과 큰 domain gap이 존재한다. 이처럼 3D 대신 2D를 target으로 하는 weakly supervising에서 발생하는 depth ambiguity 문제 해결을 위해서 DensePose based loss를 도입한다. 해당 model은 SMPL과 SMPLicit을 기반으로 clothed human mesh를 복원한다.|
 
 ### ○ Vision
 |제목|핵심 내용|

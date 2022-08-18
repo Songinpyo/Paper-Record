@@ -26,7 +26,7 @@
 |제목|핵심 내용|
 |------|---|
 |[Keep it SMPL: Automatic Estimation of 3D Human Pose and Shape from a Single Image](https://github.com/Songinpyo/Paper-Record/issues/10) [ECCV2016]|2D monocular image로부터 3D mesh를 추정하는 방법을 제안한 논문, 현재까지도 smpl parameter를 추정하는 방법 사용하는 논문들에 꾸준히 사용되고 있다.|
-|The Power of Points for Modeling Humans in Clothing [ICCV2021]|기존의 mesh기반, implicit surface 기반 3D reconstruction에서 pose base cloth deformation같은 Detail한 부분을 잘 나타내지 못한 것을 point cloud 기반 방법으로 realistically 구현하였다.|
+|[The Power of Points for Modeling Humans in Clothing](https://github.com/Songinpyo/Paper-Record/issues/11) [ICCV2021]|기존의 mesh기반, implicit surface 기반 3D reconstruction에서 pose base cloth deformation같은 Detail한 부분을 잘 나타내지 못한 것을 point cloud 기반 방법으로 realistically 구현하였다.|
 
 ### ○ Vision
 |제목|핵심 내용|

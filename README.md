@@ -34,7 +34,7 @@
 |------|---|
 |[Deep Residual Learning for Image Recognition](https://github.com/Songinpyo/Paper-Record/issues/4) [IEEE2016]|Residual learning을 통해 deeper network를 쉽게 최적화 시키고, deeper layer가 유발하는 문제를 해결한다. Residual block, Bottleneck block|
 |[Feature Pyramid Networks for Object Detection](https://github.com/Songinpyo/Paper-Record/issues/5) [CVPR2017]|Deep Convolution Network에 Feature pyraimd 구조를 사용한다. Low resolution High feature를 up-conv하여 하위 layer의 feature들과 더하는 방법으로 feature를 추출해낸다.|
-|[Learning Transferable Visual Models From Natural Language Supervision](https://github.com/Songinpyo/Paper-Record/issues/12) [OpenAI2021]|Text와 Image를 동시에 학습시키는 방식을 통해서 Classification task에서 좋은 성능을 보여주었다. Training에는 대량의 raw data Inference는 Zero-shot으로 진행되는 특징이 있다.|
+|[Learning Transferable Visual Models From Natural Language Supervision](https://github.com/Songinpyo/Paper-Record/issues/13) [OpenAI2021]|Text와 Image를 동시에 학습시키는 방식을 통해서 Classification task에서 좋은 성능을 보여주었다. Training에는 대량의 raw data Inference는 Zero-shot으로 진행되는 특징이 있다.|
 
 ### ○ Temporal
 |제목|핵심 내용|

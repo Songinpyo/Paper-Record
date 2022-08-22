@@ -46,6 +46,7 @@
 |제목|핵심 내용|
 |------|---|
 |[AN IMAGE IS WORTH 16X16 WORDS:TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE](https://github.com/Songinpyo/Paper-Record/issues/6) [ICLR2021]|CNN을 전혀 사용하지 않고 Transformer만을 이용한 Image classifier를 만든다. 이미지를 패치로 나누고 linear projection으로 패치의 차원을 변환하여 패치 임베딩을 구축한다. 패치 임베딩과 위치 임베딩을 Transformer Encoder에 넣어 feature representation을 추출하고 이를 MLP head에 넣어 최종적으로 class를 분류한다.|
+|[Swin Transformer: Hierarchical Vision Transformer using Shifted Windows](https://github.com/Songinpyo/Paper-Record/issues/14) [ICCV2021]|Local Window를 적용하여 inductive bias 증가, Patch Merging을 통해 Hierarchical 구조 형성 보다 작은 물체도 인지 가능, 이미지의 특성을 고려한 Transformer 구조|
 
 # Paper I'll read ✏️
 

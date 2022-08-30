@@ -21,7 +21,7 @@
 |Multi-Instance Pose Networks: Rethinking Top-Down Pose Estimation [ICCV2021]|기존의 Top-down method architecture에 Multi Instance Modulation Block을 적용하여 Bounding box내의 multi instance 인식을 가능하게 한다. 파라미터 증가 3% 수준으로 매우 효율적|
 |[Rethinking the Heatmap Regression for Bottom-up Human Pose Estimation](https://github.com/Songinpyo/Paper-Record/issues/1) [CVPR2021]|Bottom-up method에서 Human scale variance와 labeling ambiguities를 고려하지 않는 fixed Standard deviations를 쓰는 것은 문제가 있다. 이를 위해 Scale-adaptive heatmap regression과 Weight-adaptive heatmap regression을 제안한다.|
 |[Deep Dual Consecutive Network for Human Pose Estimation](https://github.com/Songinpyo/Paper-Record/issues/3) [CVPR2021]|연속적인 이미지 즉, Video에서 Human Pose Estimation은 motion blur, video defocus, occlusions 등 다양한 어려움을 겪는다. 해당 논문은 Key Point detection을 위해 과거와 미래의 비디오 프레임의 temporal cues를 활용하는 multi-frame HPE를 제안한다.|
-|[OTPose: Occlusion-Aware Transformer for Pose Estimation in Sparsely-Labeled Videos](https://arxiv.org/abs/2207.09725)|제한적인 receptive field를 가지는 CNN의 근본적 한계와 main challenge인 occlusion을 해결하기 위해 여러 프레임의 조합과 transformer를 이용해서 Occlusion aware heatmap, Occlusion Attension mask를 생성한다. Posetrack SOTA |
+|[OTPose: Occlusion-Aware Transformer for Pose Estimation in Sparsely-Labeled Videos[2022]](https://arxiv.org/abs/2207.09725](https://github.com/Songinpyo/Paper-Record/issues/16)|제한적인 receptive field를 가지는 CNN의 근본적 한계와 main challenge인 occlusion을 해결하기 위해 여러 프레임의 조합과 transformer를 이용해서 Occlusion aware heatmap, Occlusion Attension mask를 생성한다. Posetrack SOTA |
 
 ### ○ 3D Human Mesh Reconstruction
 |제목|핵심 내용|

@@ -31,6 +31,7 @@
 |[3D Clothed Human Reconstruction in the Wild](https://github.com/Songinpyo/Paper-Record/issues/12) [ECCV2022]|기존의 data로 사용되던 데이터는 제약조건하에 촬영된 3D rendered images를 사용하였기 때문에 in-the-wild images를 데이터로 사용하는 것과 큰 domain gap이 존재한다. 이처럼 3D 대신 2D를 target으로 하는 weakly supervising에서 발생하는 depth ambiguity 문제 해결을 위해서 DensePose based loss를 도입한다. 해당 model은 SMPL과 SMPLicit을 기반으로 clothed human mesh를 복원한다.|
 |[HMR : End-to-end Recovery of Human Shape and Pose](https://github.com/Songinpyo/Paper-Record/issues/17) [CVPR 2018]|3D annotation이 없는 In-the-wild image를 direct 방식으로 3D mesh reconstruction에서 사용할 수 있게 하였다. GAN의 adversarial training method를 차용하여 discriminator를 통해 사실적인 reconstruction이 가능하게 하였다.|
 |[SPIN : Learning to Reconstruct 3D Human Pose and Shape via Model-fitting in the Loop](https://github.com/Songinpyo/Paper-Record/issues/18) [ICCV 2019]|Optimization과 Regression을 상호보완적으로 사용하여 Regression은 Optimization에게 좋은 initialization을 제공하고, 그렇게 얻어진 Optimization은 Regression의 좋은 Supervision이 될 수 있다. 스스로 Supervision을 생성하기 때문에 별도의 3D annoation없이 2D annotation만 있는 In-the-wild image에서도 사용가능하다.|
+|[VIBE: Video Inference for Human Body Pose and Shape Estimation](https://github.com/Songinpyo/Paper-Record/issues/19) [CVPR 2020]|비디오에서 temporal information을 이용해 정확하게 3D Motion 을 예측하는 것을 목적으로 한 논문으로서 RNN architecture의 사용으로 information을 over time propagate 하였다. AMASS dataset을 이용하여 motion sequence를 학습시킨 discriminator를 제안한다. Discriminator에 self-attention을 적용하여 human motion에 중요한 temporal structure에 집중하도록 한다.|
 
 ### ○ Vision
 |제목|핵심 내용|

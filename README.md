@@ -32,8 +32,7 @@
 |[HMR : End-to-end Recovery of Human Shape and Pose](https://github.com/Songinpyo/Paper-Record/issues/17) [CVPR 2018]|3D annotation이 없는 In-the-wild image를 direct 방식으로 3D mesh reconstruction에서 사용할 수 있게 하였다. GAN의 adversarial training method를 차용하여 discriminator를 통해 사실적인 reconstruction이 가능하게 하였다.|
 |[SPIN : Learning to Reconstruct 3D Human Pose and Shape via Model-fitting in the Loop](https://github.com/Songinpyo/Paper-Record/issues/18) [ICCV 2019]|Optimization과 Regression을 상호보완적으로 사용하여 Regression은 Optimization에게 좋은 initialization을 제공하고, 그렇게 얻어진 Optimization은 Regression의 좋은 Supervision이 될 수 있다. 스스로 Supervision을 생성하기 때문에 별도의 3D annoation없이 2D annotation만 있는 In-the-wild image에서도 사용가능하다.|
 |[VIBE: Video Inference for Human Body Pose and Shape Estimation](https://github.com/Songinpyo/Paper-Record/issues/19) [CVPR 2020]|비디오에서 temporal information을 이용해 정확하게 3D Motion 을 예측하는 것을 목적으로 한 논문으로서 RNN architecture의 사용으로 information을 over time propagate 하였다. AMASS dataset을 이용하여 motion sequence를 학습시킨 discriminator를 제안한다. Discriminator에 self-attention을 적용하여 human motion에 중요한 temporal structure에 집중하도록 한다.|
-|[TCMR: Beyond Static Features for Temporally Consistent 3D Human Pose and Shape from a Video](https://github.com/Songinpyo/Paper-Record/issues/20) [CVPR 2021]|1. TCMR은 Residual connection을 제거하고 PoseForecast르 도입하여 과거와 현재 frame의 temporal information을 효과적으로 활용하며 현재 프레임의 static feature에 지배당하지 않는다.
-2. TCMR은 Temporal consistency를 강화할 뿐 아니라 per-frame 3D pose shape inference도 개선하였다.|
+|[TCMR: Beyond Static Features for Temporally Consistent 3D Human Pose and Shape from a Video](https://github.com/Songinpyo/Paper-Record/issues/20) [CVPR 2021]|TCMR은 Residual connection을 제거하고 PoseForecast르 도입하여 과거와 현재 frame의 temporal information을 효과적으로 활용하며 현재 프레임의 static feature에 지배당하지 않는다. TCMR은 Temporal consistency를 강화할 뿐 아니라 per-frame 3D pose shape inference도 개선하였다.|
 
 ### ○ Vision
 |제목|핵심 내용|
